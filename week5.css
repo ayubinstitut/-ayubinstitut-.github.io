@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  text-align: center;
+  text-align: left;
   padding: 80px;
 }
 
@@ -18,10 +18,10 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
   color: white;
-  text-align: center;
-  font: message-box;
+  text-align: left;
+  text-decoration: underline;
 }
 
 p {
@@ -30,11 +30,16 @@ p {
 }
 
 ul {
-  text-align: center; /* Center align the list items */
-  padding-left: 0; /* Remove default left padding */
+  text-align: left;
+  padding-left: 0;
 }
 
 li {
-  list-style: none; /* Remove the default bullet points */
-  margin-bottom: 10px; /* Add spacing between list items */
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+li::before {
+  content: "\2714"; /* Unicode for checkmark symbol */
+  margin-right: 5px;
 }
