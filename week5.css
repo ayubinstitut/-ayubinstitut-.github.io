@@ -54,4 +54,8 @@ li::before {
   font-size: 16px;
   margin-right: 5px;
 }
+.section-divider {
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
 
